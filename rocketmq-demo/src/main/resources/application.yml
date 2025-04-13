@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+rocketmq:
+  name-server: 127.0.0.1:9876  # RocketMQ namesrv 地址
+  producer:
+    group: demo-producer-group  # 生产者组名
+  consumer:
+    group: demo-consumer-group  # 消费者组名
+    topic: demo-topic           # 订阅的主题
